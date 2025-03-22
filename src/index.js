@@ -33,7 +33,7 @@ function init() {
     renderer.setSize(window.innerWidth, window.innerHeight);
 
     //背景颜色
-    //renderer.setClearColor(0xffffff);
+    renderer.setClearColor(0xffffff);
 
     renderer.render(scene, camera);
     //add the canvas element created by the renderer to doument body
