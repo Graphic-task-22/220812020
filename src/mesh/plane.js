@@ -10,10 +10,10 @@ texture.wrapT = THREE.RepeatWrapping;
 texture.repeat.set( 6, 3 );
 
 const material = new THREE.MeshBasicMaterial( {
-    //color: 0x00ff00, 
+    color: 0x00ff00, 
     opacity: 0.8,
     //transparent: true,
-    map: texture
+    //map: texture
 } );
 
 const plane = new THREE.Mesh( geometry, material );
