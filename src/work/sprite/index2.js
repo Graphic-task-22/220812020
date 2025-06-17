@@ -1,11 +1,11 @@
 import*as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import Stats from 'three/addons/libs/stats.module.js';
-import cube from "./mesh/cube";
-import sphere from './mesh/sphere';
-import capsule from './mesh/capsule';
-import sprite from './sprite/sprite';
-import points from './points/index';
+import cube from "../../mesh/cube";
+import sphere from '../../mesh/sphere';
+import capsule from '../../mesh/capsule';
+import sprite from '../../sprite/sprite';
+import points from '../../points/index';
 import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
 
 let renderer,camera,scene,ambientLight,animationFrameId//场景，相机，渲染器
